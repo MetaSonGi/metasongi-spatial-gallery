@@ -1,2 +1,19 @@
-# metasongi-spatial-gallery
-Unity VR exhibition built from scanned real spaces, with photo and media-art placement, visitor navigation and image-tracking research.
+# MetaSonGi Spatial Gallery
+
+실제 전시공간을 스캔한 3D 모델을 바탕으로 사진·AI 영상·미디어아트를 배치하는 Unity VR 전시 프로젝트입니다.
+
+## 현재 상태
+저장소와 요구사항·개발 계획을 초기화했습니다. 실행 가능한 앱·Unity 프로젝트·하드웨어 연동은 아직 구현하지 않았습니다.
+
+## MVP 개발 목록
+- [ ] 공간 스캔 결과 임포트와 실제 크기·방향 정렬
+- [ ] 메시 정리·텍스처 최적화·충돌용 단순 모델
+- [ ] 사진·영상·입체 작품과 설명 배치
+- [ ] PC 관람과 VR 이동·텔레포트
+- [ ] 전시 배치 저장·불러오기
+
+## 개발 순서
+1단계: 임시 전시장과 작품 배치 → 2단계: 스캔 데이터 적용 → 3단계: VR 관람 → 4단계: 전시 편집과 배포.
+
+## 설계와 프로젝트 경계
+스캔 장비와 파일 형식은 실제 보유 장비에 따라 결정합니다. 모든 VR 헤드셋이 정밀 공간 스캔·메시 내보내기를 지원한다고 가정하지 않습니다. SIFT 이미지 매칭과 AR Foundation 이미지 추적은 선택적 배치 보조 기능으로 검토합니다. 드론 시뮬레이터와 스마트팩토리 훈련장은 각각 별도 프로젝트입니다.
